@@ -1,0 +1,30 @@
+.dropdown-list {
+  display: none;
+  position: absolute;
+  top: calc(100% + 5px);
+  width: 100%;
+}
+
+.dropdown-list-items {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+.dropdown-list-open {
+  display: block;
+}
+
+ .dropdown-list::before {
+  content: ''; 
+  width: 2px;
+  margin-top: -5px;
+  margin-left: 10px;
+  border: 5px solid transparent;
+  border-bottom: 5px solid white;
+  display: flex;
+  align-items: flex-start;
+ }

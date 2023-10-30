@@ -1,0 +1,14 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown-button {
+  background-color: #507CFB;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 0;
+  padding: 20px 100px 20px 20px;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,13 @@
+.dropdown-list-item {
+  padding: 15px 0;
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(125, 125, 125);
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-list-item:last-child {
+  border-bottom: 0;
+}
